@@ -43,10 +43,7 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // ── Turbopack (default bundler in Next.js 16) ─────────────────────
-  turbopack: {
-    root: process.cwd(),
-  },
+
 
   // ── Security Headers (CSP, HSTS, X-Frame-Options) ─────────────────
   async headers() {
