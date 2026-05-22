@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <!-- Phone body -->
+  <rect x="40" y="30" width="520" height="840" rx="40" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <!-- Notch -->
+  <rect x="230" y="50" width="140" height="24" rx="12" fill="#1e293b"/>
+  <!-- Status bar -->
+  <text x="480" y="66" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" text-anchor="end">9:41</text>
+  <!-- App content area -->
+  <rect x="60" y="84" width="480" height="766" fill="#1e293b" opacity="0.95"/>
+  <!-- Header -->
+  <rect x="60" y="84" width="480" height="56" fill="#1e293b"/>
+  <rect x="60" y="84" width="4" height="56" fill="url(#orange)"/>
+  <rect x="80" y="96" width="32" height="32" rx="8" fill="url(#orange)"/>
+  <polygon points="96,104 88,112 96,120" fill="white" opacity="0.9"/>
+  <polygon points="84,104 84,120 92,112" fill="white" opacity="0.6"/>
+  <text x="122" y="117" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#f1f5f9">EDUVERSE</text>
+  <circle cx="500" cy="112" r="16" fill="url(#orange)"/>
+  <text x="500" y="117" font-family="system-ui,sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="700">A</text>
+
+  <!-- Scrollable content -->
+  <!-- Greeting -->
+  <text x="80" y="170" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#f1f5f9">Hi, Alex 👋</text>
+  <text x="80" y="190" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">🔥 15-day streak · Let's keep going!</text>
+
+  <!-- Stats row (horizontal scroll) -->
+  <g transform="translate(80, 210)">
+    <rect x="0" y="0" width="110" height="70" rx="10" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="12" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Courses</text>
+    <text x="12" y="52" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#f97316">12</text>
+  </g>
+  <g transform="translate(200, 210)">
+    <rect x="0" y="0" width="110" height="70" rx="10" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="12" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Progress</text>
+    <text x="12" y="52" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#22c55e">78%</text>
+  </g>
+  <g transform="translate(320, 210)">
+    <rect x="0" y="0" width="110" height="70" rx="10" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="12" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">XP</text>
+    <text x="12" y="52" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#fbbf24">2,450</text>
+  </g>
+
+  <!-- Continue Learning -->
+  <text x="80" y="320" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Continue Learning</text>
+  <g transform="translate(80, 330)">
+    <rect x="0" y="0" width="440" height="80" rx="12" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <rect x="0" y="0" width="6" height="80" rx="3" fill="url(#orange)"/>
+    <text x="20" y="22" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Python Programming</text>
+    <text x="20" y="40" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Variables & Data Types</text>
+    <rect x="20" y="52" width="300" height="6" rx="3" fill="#1e293b"/>
+    <rect x="20" y="52" width="240" height="6" rx="3" fill="url(#orange)"/>
+    <text x="420" y="56" font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8" text-anchor="end">80%</text>
+    <text x="340" y="67" font-family="system-ui,sans-serif" font-size="11" fill="#f97316" font-weight="600">Continue →</text>
+  </g>
+
+  <!-- Upcoming Session -->
+  <text x="80" y="450" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Upcoming Session</text>
+  <g transform="translate(80, 460)">
+    <rect x="0" y="0" width="440" height="60" rx="12" fill="#0f172a" stroke="#f97316" stroke-width="1"/>
+    <text x="16" y="24" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🎯 Math 301 — Live Review</text>
+    <text x="16" y="44" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Today, 3:00 PM · Dr. Sarah Williams</text>
+    <rect x="360" y="16" width="64" height="28" rx="8" fill="url(#orange)"/>
+    <text x="392" y="35" font-family="system-ui,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">Join</text>
+  </g>
+
+  <!-- Quick Actions -->
+  <text x="80" y="560" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Quick Actions</text>
+  <g transform="translate(80, 570)">
+    <rect x="0" y="0" width="140" height="50" rx="10" fill="url(#orange)" opacity="0.15"/>
+    <rect x="0" y="0" width="140" height="50" rx="10" fill="none" stroke="#f97316" stroke-width="0.5"/>
+    <text x="70" y="30" font-family="system-ui,sans-serif" font-size="12" fill="#fb923c" text-anchor="middle" font-weight="600">📚 Browse Courses</text>
+  </g>
+  <g transform="translate(230, 570)">
+    <rect x="0" y="0" width="140" height="50" rx="10" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="70" y="30" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0" text-anchor="middle">👨‍🏫 Find Tutor</text>
+  </g>
+  <g transform="translate(380, 570)">
+    <rect x="0" y="0" width="140" height="50" rx="10" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="70" y="30" font-family="system-ui,sans-serif" font-size="12" fill="#e2e8f0" text-anchor="middle">💬 Messages</text>
+  </g>
+
+  <!-- Recent Activity -->
+  <text x="80" y="660" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Recent Activity</text>
+  <g transform="translate(80, 672)">
+    <text x="0" y="16" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">✅ Completed "Python Functions" quiz</text>
+    <text x="380" y="16" font-family="system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">2h ago</text>
+  </g>
+  <g transform="translate(80, 698)">
+    <text x="0" y="16" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">⭐ Achieved "Quick Learner" badge</text>
+    <text x="380" y="16" font-family="system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">5h ago</text>
+  </g>
+  <g transform="translate(80, 724)">
+    <text x="0" y="16" font-family="system-ui,sans-serif" font-size="12" fill="#94a3b8">📝 Submitted Physics assignment</text>
+    <text x="380" y="16" font-family="system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="end">1d ago</text>
+  </g>
+
+  <!-- Bottom nav -->
+  <rect x="60" y="810" width="480" height="40" fill="#0f172a"/>
+  <g font-family="system-ui,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">
+    <text x="130" y="835" fill="#fb923c" font-weight="600">🏠 Home</text>
+    <text x="240" y="835">📚 Courses</text>
+    <text x="340" y="835">📊 Stats</text>
+    <text x="450" y="835">👤 Profile</text>
+  </g>
+</svg>

@@ -1,17 +1,89 @@
 {
-  "name": "edtech-platform",
-  "version": "0.1.0",
+  "name": "eduverse-learning",
+  "version": "1.0.0",
   "private": true,
+  "description": "Modern learning infrastructure — course management, live classes, tutor matching, assignment tracking, certification engine, student analytics.",
+  "keywords": [
+    "edtech",
+    "learning-management-system",
+    "nextjs",
+    "education",
+    "courses",
+    "live-classes",
+    "tutor-platform",
+    "certification"
+  ],
+  "homepage": "https://eduverse-learning.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduverse/learning-platform.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "EDUVERSE Team",
+    "url": "https://github.com/eduverse"
+  },
+  "contributors": [
+    {
+      "name": "EDUVERSE Contributors",
+      "url": "https://github.com/eduverse/learning-platform/graphs/contributors"
+    }
+  ],
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4006 --turbo",
+    "dev:stable": "next dev -p 4006",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "build:analyze": "ANALYZE=true next build",
+    "start": "next start -p 4006",
+    "start:prod": "NODE_ENV=production node .next/standalone/server.js",
+    "lint": "eslint . --ext .ts,.tsx --max-warnings 0",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css,json}\"",
+    "clean": "rimraf .next node_modules/.cache",
+    "reset": "rimraf .next node_modules && npm install",
+    "analyze": "ANALYZE=true next build",
+    "preview": "next build && next start -p 4006",
+    "docker:build": "docker build -t eduverse-learning .",
+    "docker:run": "docker run -p 4006:3000 eduverse-learning",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "test:e2e": "playwright test",
+    "prepare": "husky || true"
   },
   "dependencies": {
     "next": "16.2.6",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "framer-motion": "^12",
+    "lucide-react": "^0.400",
+    "class-variance-authority": "^0.7",
+    "clsx": "^2.1",
+    "tailwind-merge": "^3",
+    "tailwindcss-animate": "^1",
+    "zod": "^3",
+    "@radix-ui/react-slot": "^1",
+    "@radix-ui/react-dialog": "^1",
+    "@radix-ui/react-dropdown-menu": "^1",
+    "@radix-ui/react-select": "^1",
+    "@radix-ui/react-tabs": "^1",
+    "@radix-ui/react-avatar": "^1",
+    "@radix-ui/react-toast": "^1",
+    "@radix-ui/react-label": "^1",
+    "@radix-ui/react-separator": "^1",
+    "@radix-ui/react-popover": "^1",
+    "@radix-ui/react-tooltip": "^1",
+    "@radix-ui/react-scroll-area": "^1",
+    "@radix-ui/react-switch": "^1",
+    "@radix-ui/react-checkbox": "^1",
+    "@radix-ui/react-progress": "^1",
+    "@radix-ui/react-alert-dialog": "^1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -21,6 +93,39 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "prettier": "^3",
+    "prettier-plugin-tailwindcss": "^0.6",
+    "rimraf": "^6",
+    "husky": "^9",
+    "lint-staged": "^15",
+    "vitest": "^3",
+    "@testing-library/react": "^16",
+    "@testing-library/jest-dom": "^6",
+    "jsdom": "^25",
+    "msw": "^2",
+    "@playwright/test": "^1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,md}": [
+      "prettier --write"
+    ]
+  },
+  "packageManager": "npm@10.8.0",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

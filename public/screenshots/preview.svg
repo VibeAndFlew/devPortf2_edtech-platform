@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="600" viewBox="0 0 2000 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#ea580c"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#f97316" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="2000" height="600" fill="url(#bg)"/>
+  <g opacity="0.04">
+    <line x1="0" y1="100" x2="2000" y2="100" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="2000" y2="200" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="2000" y2="300" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="2000" y2="400" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="500" x2="2000" y2="500" stroke="white" stroke-width="0.5"/>
+    <line x1="250" y1="0" x2="250" y2="600" stroke="white" stroke-width="0.5"/>
+    <line x1="500" y1="0" x2="500" y2="600" stroke="white" stroke-width="0.5"/>
+    <line x1="750" y1="0" x2="750" y2="600" stroke="white" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="600" stroke="white" stroke-width="0.5"/>
+    <line x1="1250" y1="0" x2="1250" y2="600" stroke="white" stroke-width="0.5"/>
+    <line x1="1500" y1="0" x2="1500" y2="600" stroke="white" stroke-width="0.5"/>
+    <line x1="1750" y1="0" x2="1750" y2="600" stroke="white" stroke-width="0.5"/>
+  </g>
+  <circle cx="150" cy="450" r="120" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.12"/>
+  <circle cx="1850" cy="150" r="160" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.1"/>
+  <circle cx="1000" cy="300" r="200" fill="none" stroke="#f97316" stroke-width="0.3" opacity="0.06"/>
+
+  <!-- Logo -->
+  <g transform="translate(100, 280)">
+    <rect x="0" y="0" width="60" height="60" rx="14" fill="url(#orange)"/>
+    <polygon points="42,18 22,30 42,42" fill="white" opacity="0.9"/>
+    <polygon points="18,18 18,42 38,30" fill="white" opacity="0.6"/>
+  </g>
+  <text x="190" y="270" font-family="system-ui,sans-serif" font-size="64" font-weight="800" fill="white" letter-spacing="-1">EDUVERSE</text>
+  <text x="190" y="320" font-family="system-ui,sans-serif" font-size="28" font-weight="300" fill="#fb923c" letter-spacing="2">LEARNING INFRASTRUCTURE</text>
+  <text x="190" y="365" font-family="system-ui,sans-serif" font-size="16" fill="#94a3b8">Modern learning platform — course management, live classes, tutor</text>
+  <text x="190" y="388" font-family="system-ui,sans-serif" font-size="16" fill="#94a3b8">matching, assignment tracking, certification engine, student analytics.</text>
+
+  <!-- Badges -->
+  <g transform="translate(190, 430)">
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="#f97316" opacity="0.12"/>
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.5"/>
+    <text x="60" y="21" font-family="system-ui,sans-serif" font-size="12" fill="#fb923c" text-anchor="middle" font-weight="600">Next.js 16</text>
+  </g>
+  <g transform="translate(320, 430)">
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="#f97316" opacity="0.12"/>
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.5"/>
+    <text x="60" y="21" font-family="system-ui,sans-serif" font-size="12" fill="#fb923c" text-anchor="middle" font-weight="600">React 19</text>
+  </g>
+  <g transform="translate(450, 430)">
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="#f97316" opacity="0.12"/>
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.5"/>
+    <text x="60" y="21" font-family="system-ui,sans-serif" font-size="12" fill="#fb923c" text-anchor="middle" font-weight="600">Tailwind v4</text>
+  </g>
+  <g transform="translate(580, 430)">
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="#f97316" opacity="0.12"/>
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.5"/>
+    <text x="60" y="21" font-family="system-ui,sans-serif" font-size="12" fill="#fb923c" text-anchor="middle" font-weight="600">TypeScript</text>
+  </g>
+  <g transform="translate(710, 430)">
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="#f97316" opacity="0.12"/>
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="none" stroke="#f97316" stroke-width="0.5" opacity="0.5"/>
+    <text x="60" y="21" font-family="system-ui,sans-serif" font-size="12" fill="#fb923c" text-anchor="middle" font-weight="600">shadcn/ui</text>
+  </g>
+
+  <!-- Dashboard preview card -->
+  <g transform="translate(1050, 120)" filter="url(#shadow)">
+    <rect x="0" y="0" width="820" height="380" rx="16" fill="#1e293b" opacity="0.95"/>
+    <rect x="0" y="0" width="820" height="380" rx="16" fill="none" stroke="#334155" stroke-width="1"/>
+    <!-- Top bar -->
+    <rect x="0" y="0" width="820" height="44" rx="16" fill="#1e293b"/>
+    <rect x="0" y="44" width="820" height="1" fill="#334155"/>
+    <circle cx="20" cy="22" r="5" fill="#ef4444"/>
+    <circle cx="36" cy="22" r="5" fill="#fbbf24"/>
+    <circle cx="52" cy="22" r="5" fill="#22c55e"/>
+    <text x="410" y="27" font-family="system-ui,sans-serif" font-size="11" fill="#64748b" text-anchor="middle">EDUVERSE Dashboard — Student Overview</text>
+    <!-- Sidebar -->
+    <rect x="0" y="45" width="180" height="335" fill="#0f172a" opacity="0.6"/>
+    <rect x="0" y="45" width="1" height="335" fill="#334155"/>
+    <text x="16" y="72" font-family="system-ui,sans-serif" font-size="10" fill="#f97316" font-weight="600">NAVIGATION</text>
+    <g font-family="system-ui,sans-serif" font-size="11" fill="#94a3b8">
+      <text x="16" y="96">📊 Dashboard</text>
+      <text x="16" y="116">📚 Courses</text>
+      <text x="16" y="136">🎥 Live Classes</text>
+      <text x="16" y="156">👨‍🏫 Tutors</text>
+      <text x="16" y="176">📝 Assignments</text>
+      <text x="16" y="196">🏆 Certificates</text>
+      <text x="16" y="216">💬 Messages</text>
+      <text x="16" y="236">⚙️ Settings</text>
+    </g>
+    <!-- Stats -->
+    <g transform="translate(196, 58)">
+      <rect x="0" y="0" width="145" height="60" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+      <text x="12" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Courses</text>
+      <text x="12" y="46" font-family="system-ui,sans-serif" font-size="22" fill="#f97316" font-weight="700">12</text>
+    </g>
+    <g transform="translate(354, 58)">
+      <rect x="0" y="0" width="145" height="60" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+      <text x="12" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Progress</text>
+      <text x="12" y="46" font-family="system-ui,sans-serif" font-size="22" fill="#22c55e" font-weight="700">78%</text>
+    </g>
+    <g transform="translate(512, 58)">
+      <rect x="0" y="0" width="145" height="60" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+      <text x="12" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Achievements</text>
+      <text x="12" y="46" font-family="system-ui,sans-serif" font-size="22" fill="#fbbf24" font-weight="700">8</text>
+    </g>
+    <g transform="translate(670, 58)">
+      <rect x="0" y="0" width="135" height="60" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+      <text x="12" y="22" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Streak</text>
+      <text x="12" y="46" font-family="system-ui,sans-serif" font-size="22" fill="#f97316" font-weight="700">15🔥</text>
+    </g>
+    <!-- Activity graph -->
+    <g transform="translate(196, 132)">
+      <text x="0" y="12" font-family="system-ui,sans-serif" font-size="10" fill="#64748b" font-weight="600">Weekly Activity</text>
+      <rect x="0" y="22" width="610" height="80" rx="6" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+      <polyline points="30,85 70,60 110,70 150,40 190,55 230,30 270,50 310,35 350,65 390,25 430,45 470,20 510,35 550,40" fill="none" stroke="#f97316" stroke-width="2" opacity="0.8"/>
+      <polyline points="30,85 70,60 110,70 150,40 190,55 230,30 270,50 310,35 350,65 390,25 430,45 470,20 510,35 550,40" fill="none" stroke="#f97316" stroke-width="6" opacity="0.12"/>
+    </g>
+    <!-- Upcoming -->
+    <g transform="translate(196, 228)">
+      <text x="0" y="12" font-family="system-ui,sans-serif" font-size="10" fill="#64748b" font-weight="600">Upcoming Sessions</text>
+      <rect x="0" y="20" width="610" height="22" rx="4" fill="#1e293b" opacity="0.5"/>
+      <text x="10" y="35" font-family="system-ui,sans-serif" font-size="11" fill="#e2e8f0">🎯 Math 301 — Live Review</text>
+      <text x="540" y="35" font-family="system-ui,sans-serif" font-size="10" fill="#64748b">Today 3:00 PM</text>
+      <rect x="0" y="46" width="610" height="22" rx="4" fill="#1e293b" opacity="0.5"/>
+      <text x="10" y="61" font-family="system-ui,sans-serif" font-size="11" fill="#e2e8f0">📝 Physics HW — Due Tomorrow</text>
+      <text x="540" y="61" font-family="system-ui,sans-serif" font-size="10" fill="#ef4444">Urgent</text>
+    </g>
+    <!-- Quick actions -->
+    <g transform="translate(196, 290)">
+      <rect x="0" y="0" width="140" height="34" rx="8" fill="#f97316" opacity="0.12"/>
+      <rect x="0" y="0" width="140" height="34" rx="8" fill="none" stroke="#f97316" stroke-width="0.5"/>
+      <text x="70" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#fb923c" text-anchor="middle" font-weight="600">📚 Browse Courses</text>
+    </g>
+    <g transform="translate(348, 290)">
+      <rect x="0" y="0" width="140" height="34" rx="8" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+      <text x="70" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">👨‍🏫 Find Tutor</text>
+    </g>
+    <g transform="translate(500, 290)">
+      <rect x="0" y="0" width="140" height="34" rx="8" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+      <text x="70" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">💬 Messages (3)</text>
+    </g>
+  </g>
+  <rect x="0" y="570" width="2000" height="30" fill="url(#bg)" opacity="0.8"/>
+</svg>
